@@ -1,0 +1,80 @@
+
+
+
+<!DOCTYPE "html">
+<html>
+<head>
+	<link href="index.css" rel = "stylesheet" type = "text/css" />
+</head>
+<body>
+<div class= "wrapper">
+	<div class = "header">
+		
+		<div class = "navlist">
+			<p>
+			<div class = "logo">
+			<span class = "logo"><img src = "images/logo3.png" width = "180px" height = "70px"/></span>
+			</div>
+			<div <p><span class="border"><li><a href="index.php" id="current">Home</a></li></p></div>
+			<div <p><span class="border"><li><a href="products.php" id="current">Products</a></li></p></div>
+			<div <p><span class="border"><li><a href="Company details.php" id="current">Company details</a></li></p></div>
+			<div <p><span class="border"><li><a href="Reservation.php" id="current">Reservation</a></li></p></div>
+			<div <p><span class="border"><li><a href="Contact.php" id="current">Contact</a></li></p></div>
+			<div <p><span class="border"><li><a href="My Account.php" id="current">My Account</a></li></p></div>
+			<div class = "search"><li><form action ="search.php" method = "post">
+			<input type = "text" name ="search"/>
+			<input type = "submit" value = "search"/>
+			</form></div>
+			</ul>
+			</p>
+		</div>
+	</div>
+</div>
+		<div class = "top">
+				<div class = "top_left">
+						<div class = "top_left1"><img src = "images/22.jpg" width = "346px" height = "145px"/></div>
+						<div class = "top_left2"><img src = "images/21.jpg" width = "173px" height = "145px"/></div>
+			</div>
+		</div>
+	
+	<div class = "mid_product">
+		<?php
+		include "database.php";
+		
+		if(!$con){
+			echo "error";
+			}
+			
+		$query = "select * from products order by id asc";
+		$ret = mysql_query($query, $con);
+		$num = mysql_num_rows($ret);
+		
+		
+		for($i=0; $i < 10; $i++){
+			$pro = mysql_fetch_array($ret);
+		?>
+		<div class = "mid_left">
+			<a href = "products.php?condition=<?php echo $pro['manu']; ?>&type=1">
+			<div class = "mid_left1"><img src = "images/<?php echo $pro['id']; ?>.jpg" width = "173px" height = "145px"/></div>
+			<div class = "mid_left2"><?php echo $pro['name']; ?></div>
+			</a>
+		</div>
+		<?php } ?>
+	</div>
+	
+
+	<div class = "footer">
+		
+		<ul class = "navlist">
+		<li><a href="Copyright.php">Copyright 2014-2018 Natt Network Inc</a></li>
+		<li><a href="Legal & Regulatory.php">Legal & Regulatory</a></li>
+		<li><a href="Terms & Condition.php">Terms & Condition</a></li>
+		<li><a href="Unresolved Issues.php">Unresolved Issues</a></a></li>
+		<li><a href="Privacy Statement.php">Privacy Statement</a></li>
+		<li><a href="Recycling.php">Recycling</a></li>
+		<li><a href="Feedback.php">Feedback</a></li>
+		</div>
+	</div>
+	
+</body>
+</html>

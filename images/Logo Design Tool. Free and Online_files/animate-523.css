@@ -1,0 +1,192 @@
+#animDiv {
+	float: left;
+	width: 100%;
+	margin:0;
+	padding:0;
+}
+
+.logoPreview {
+	position:relative;
+	min-height:140px;
+	width:600px;
+}
+.logoStatusImage {
+	display:block;
+	width:20px;
+	height:20px;
+	border:0;
+}
+.logoPreviewImage {
+	display:block;
+}
+.logoErrorMessage {
+	clear:both;
+}
+.imageErrored { 
+	background-color: red;
+}
+#frameControl{
+	margin-top:10px;
+	margin-bottom:10px;
+	position: relative;
+	z-index: 2;
+}
+#plsFix{
+	display:none;
+}
+/*Jonas restyle 2/21/2012
+#submitForm{
+	margin: auto;
+	width:50%;
+	text-align: center;
+
+}
+#generatingMessage{
+	margin:auto;
+	width:440px;
+}
+*/
+#generatingMessage span{
+	position:relative;
+	top:-5px;
+	font-size: 10px;
+	padding-bottom:2px;
+	margin-left:5px;
+	color: #669;
+}
+.frameStatusMessage{
+	font-size: 10px;
+	color: #669;
+	display:none;
+}
+
+#frameList li {
+	border:1px solid #000;
+	list-style: none;
+	float: left;
+	padding-left: 5px;
+	padding-right: 5px;
+	line-height: 35px;
+	text-decoration: none;
+	cursor: pointer;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 21px;
+	color: #371C1C;
+	position:relative;
+	display:inline;
+}
+#frameList li div {
+	position:relative;
+	float:left;
+	//left:5px;
+}
+#frameList /*li*/ .ui-icon-close {
+	cursor: pointer;
+	left:5px;
+}		
+#frameList /*li*/ .ui-icon-close:hover { 
+	background-position: -33px -191px;	
+}
+
+#frameList /*li*/ .non-removable { display:none; }
+#frameList .selected {background-color: #181;}
+#frameList .working > div{
+	text-decoration:underline;
+}
+
+#frameList {
+	margin: 10px 0px 10px 0px;
+	overflow: auto;
+	padding-left: 0;
+	display: block;
+	width:auto;
+}		
+#addFrameLI {
+	background-color: #981;
+}
+#maxFramesMessage {
+	display:none;
+	color: red;
+	float: left;
+}
+#frameSlider {
+max-width:96%;
+}
+.ccDiv {
+	width:16px;
+	height:16px;
+	float:left;
+	margin-right:10px;
+	cursor: pointer;
+	background:url('http://cdn1.ftimg.com/images/copy.png') no-repeat;
+}
+.ccDiv:hover {
+	background:url('http://cdn1.ftimg.com/images/copy-hover.png') no-repeat;
+}
+.tooltip {
+	display:block;
+	position: absolute; 
+	margin-top: 0px; 
+	margin-left: 18px; 
+	width: 175px;
+	padding: 2px;
+	z-index: 100; 
+	color: #000000; 
+	background: #FFFFAA; 
+	font: 10px "Arial", sans-serif;
+	text-align: left; 
+	text-decoration: none;
+	border:1px solid #055;
+}
+
+#animTute {
+	float: right;
+	font-size: 12px;
+	position: relative;
+	top: -10px;
+	z-index: 50;
+}
+#addFrame {
+	padding:2px; /*Jonas add*/
+}
+
+#moreFramesPremium {
+	font-size: 13px;
+	margin-left: 1em;
+	display: none;
+}
+
+#animDiv .logoPreviewWrapper:hover .logoPreviewOverlay{
+	z-index: 10;
+	padding-bottom: 30px;
+	*height: auto;
+}
+#animDiv .logoPreviewWrapper:hover .logoPreviewOverlayMessage{
+	top: 20px;
+}
+#animDiv .logoPreviewWrapper:hover .logoPreviewOverlayMessage p {
+	font-weight: normal;
+	max-width: 300px;
+}
+#submitForm {
+	float: left;
+	clear: both;
+}
+#submitForm .ft-btn-border-mask {
+	float: left;
+	margin: 0 1em;
+}
+#cancelButton {
+	float: left;
+	margin: 3px;
+	padding: 4px 8px;
+}
+#generatingMessage {
+	float: left;
+	clear: both;
+}
+#statusDiv {
+	clear: both;
+	position: relative;
+	margin: 1em;
+}

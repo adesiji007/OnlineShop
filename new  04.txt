@@ -1,0 +1,17 @@
+I can see that you are logged in<hr /><html>
+<body>
+<h1> Insert a new film to the database</hi>
+<form action="insert-film.php" method="post">
+
+Film title: <input type="text" name="filmstitle">
+Year: <input type="text" name="filmsyear">
+Duration: <input type="text" name="filmsduration">
+Synopsis: <input type="text" name="filmssynopsis">
+Rating (out of 5): <input type="text" name="filmsrating">
+
+<input type="submit">
+
+</form>
+
+</body>
+</html>

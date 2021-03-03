@@ -1,0 +1,342 @@
+   .iya-widget,
+    .iya-widget form,
+    .iya-widget div,
+    .iya-widget span,
+    .iya-widget input,
+    .iya-widget img,
+    .iya-widget a {
+        background-attachment: scroll !important;
+        background-color: transparent !important;
+        background-image: none !important;
+        background-position: 0 0 !important;
+        background-repeat: repeat !important;
+        border-color: black !important;
+        border-color: currentColor !important;
+        border-radius: 0 !important;
+        border-style: none !important;
+        border-width: medium !important;
+        bottom: auto !important;
+        clear: none !important;
+        clip: auto !important;
+        color: inherit !important;
+        counter-increment: none !important;
+        counter-reset: none !important;
+        cursor: auto !important;
+        direction: inherit !important;
+        display: inline !important;
+        font-family: inherit !important;
+        font-size: inherit !important;
+        font-style: inherit !important;
+        font-variant: normal !important;
+        height: auto !important;
+        left: auto !important;
+        letter-spacing: normal !important;
+        line-height: inherit !important;
+        list-style-type: inherit !important;
+        list-style-position: outside !important;
+        list-style-image: none !important;
+        margin: 0 !important;
+        max-height: none !important;
+        max-width: none !important;
+        min-height: 0 !important;
+        min-width: 0 !important;
+        outline: invert none medium !important;
+        overflow: visible !important;
+        padding: 0 !important;
+        position: static !important;
+        quotes: "" "" !important;
+        right: auto !important;
+        table-layout: auto !important;
+        text-align: inherit !important;
+        text-decoration: inherit !important;
+        text-indent: 0 !important;
+        text-transform: none !important;
+        top: auto !important;
+        unicode-bidi: normal !important;
+        vertical-align: baseline !important;
+        visibility: inherit !important;
+        white-space: normal !important;
+        width: auto !important;
+        word-spacing: normal !important;
+        z-index: auto !important;
+        -moz-border-radius: 0 !important;
+        -webkit-border-radius: 0 !important;
+    }
+    .iya-widget,
+    .iya-widget form,
+    .iya-widget div { display: block !important }
+    .iya-widget a:hover { text-decoration: underline !important }
+    .iya-widget input,
+    .iya-widget input { border: 1px solid #ccc !important }
+    .iya-widget {
+        font-size: medium !important;
+        line-height: 1 !important;
+        direction: ltr !important;
+        text-align: left !important;
+        font-family: Tahoma, Arial, san-serif !important;
+        color: black !important;
+        font-style: normal !important;
+        font-weight: normal !important;
+        text-decoration: none !important;
+        list-style-type: disc !important;
+    }
+    .iya-widget.hide,
+    .iya-widget .hide { display: none !important }
+    .iya-widget .search-box {
+        z-index: 9999991 !important;
+        position: absolute !important;
+        -webkit-border-radius: 3px !important;
+        -moz-border-radius: 3px !important;
+        -ms-border-radius: 3px !important;
+        -o-border-radius: 3px !important;
+        border-radius: 3px !important;
+        background: white !important;
+        border: 1px solid #357dbb !important;
+        width: 225px !important;
+        -webkit-box-sizing: border-box !important;
+        -moz-box-sizing: border-box !important;
+        box-sizing: border-box !important;
+        -webkit-box-shadow: rgba(0,0,0,0.5) 0px 5px 5px !important;
+        -moz-box-shadow: rgba(0,0,0,0.5) 0px 5px 5px !important;
+        box-shadow: rgba(0,0,0,0.5) 0px 5px 5px !important;
+    }
+    .iya-widget .search-box input {
+        font-style: italic !important;
+        font-size: 85.71429% !important;
+        color: #a8a8a !important;
+        width: 180px !important;
+        height: 23px !important;
+        border: none !important;
+        padding: 0 !important;
+        margin-left: 5px !important;
+    }
+    .iya-widget .search-box .icon {
+        cursor: pointer !important;
+        position: absolute !important;
+        top: 0px !important;
+        right: 0px !important;
+        background: #357dbb !important;
+        width: 40px !important;
+        height: 23px !important;
+        display: inline-block;
+        background-position: -2px -2px !important;
+        background-repeat: no-repeat !important;
+        background-position: center -2px !important;
+        background-image: url(\'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAkCAYAAACXOioTAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEwAACxMBAJqcGAAAAmZJREFUSMftlk9IlGEQxueZVQm6dOjQ/4v3CNn1EkQIZpfoKnTo6CkwaInSLcM9ZHRJPLh46NBJEA/hId3sUlhgGwQiQV06dYmC2C0Snnm6fNK6umruGkTO5Xu/93uY3wzvzLyf2Z7t2d82/IlYEiR1mtlJAJC0BOAVgGhaRBHRQfKtaozkUkRkmgXpJFlOHK+QfEHyOcmfyd73iDjdEERSK8kPicOSpBNVARwhuZB8+yhpXyPZXEgclSPi8AaBHCT5VZIioreeH98GqyN5zrr7p3XVBHw2s5kEmtkxSFJrsvyxiWz1W+uOQQDeJcszVdDqQFJmdjbRvm+kGA6Q/Jac06gkr+4rkvdWqzEijjda3rer+uZNRAxExA2SL1f3I+JmI4CLJJ8mgMckVzZoWJK8Iwk7GkERcR3A3WT9xd2PmtkhSZclnUrOdxnAI3df3mkm12qivt/0KRsRl2ogzyJif9NBJB/sOiTJ6BjJGZIPdw2yZ//WP0NEdEnqc3dIKrj7/GaOOgdmu+jeBxkAFRaHz81vOb0jogfANICSpEVJUxFxvh4kk5vrkft0ylAys0ULTWUGimv0LXUm9hUzG3T3sQRckXTVzJ7U0ws2WBruHjMzS+eKFTNbo693H7WYWaXqvWJmbfXvEm8BfusBq8CibcuMAExKyksqSwpJeQBDdUEpTYLId96aK4cQQeVTqdTQpsUQEVlJWQAjknrNzAFMACgAUK0+PVjMApY1aSSAXpfcYBOLw90Fs/X6aohIjm6nZNODxWwmV1Q6N7ul3msOtT0ixt29f1u9AbUrbPy1L/T/f5PhFzy1DsZE7/3EAAAAAElFTkSuQmCC\') !important;
+    }
+    .iya-widget .container {
+        color: #333 !important;
+        font-size: 14px !important;
+    }
+    .iya-widget .box {
+        -webkit-box-sizing: border-box !important;
+        -moz-box-sizing: border-box !important;
+        box-sizing: border-box !important;
+        cursor: pointer !important;
+        overflow: hidden !important;
+        *zoom: 1 !important;
+        padding: 2px !important;
+        position: relative !important;
+        font-size: 68.75% !important;
+        line-height: 1.2 !important;
+    }
+    .iya-widget .box a {
+        text-decoration: none !important;
+        cursor: pointer !important;
+        display: block !important;
+    }
+    .iya-widget .box .widget-title {
+        font-size: 81.81818% !important;
+        color: #bebebe !important;
+        text-align: center !important;
+        padding-left: 2px !important;
+        padding-right: 2px !important;
+        cursor: pointer !important;
+    }
+    .iya-widget .box .title {
+        display: block !important;
+        text-decoration: underline !important;
+        font-weight: bold !important;
+        color: #2d69af !important;
+        text-align: center !important;
+        cursor: pointer !important;
+    }
+    .iya-widget .box .desc {
+        display: block !important;
+        cursor: pointer !important;
+    }
+    .iya-widget .box .url {
+        display: block !important;
+        color: #4f9600 !important;
+        text-align: center !important;
+        cursor: pointer !important;
+    }
+    .iya-widget .container {
+        z-index: 999999 !important;
+        position: relative  !important;
+        top: 0 !important;
+    }
+    .iya-widget .container .menu {
+        position: relative !important;
+        height: 30px !important;
+        z-index: 1 !important;
+    }
+    .iya-widget .container .close-button,
+    .iya-widget .container .search-button,
+    .iya-widget .container .info-button {
+        -webkit-border-radius: 2px !important;
+        -moz-border-radius: 2px !important;
+        -ms-border-radius: 2px !important;
+        -o-border-radius: 2px !important;
+        border-radius: 2px !important;
+        border: 1px solid #e0e0e0 !important;
+        width: 11px !important;
+        height: 11px !important;
+        font-size: 71.42857% !important;
+        font-weight: bold !important;
+        color: #357dbb !important;
+        text-align: center !important;
+        position: absolute !important;
+        z-index: 1 !important;
+        background: white !important;
+        cursor: pointer !important;
+    }
+    .iya-widget .container .close-button:hover,
+    .iya-widget .container .search-button:hover,
+    .iya-widget .container .info-button:hover {
+        color: white !important;
+        background: #357dbb !important;
+    }
+    .iya-widget .container .close-button {
+        right: 0px !important;
+        bottom: -6px !important;
+    }
+    .iya-widget .container .info-button {
+        right: 16px !important;
+        bottom: -6px !important;
+    }
+    .iya-widget .container .search-button {
+        right: 32px !important;
+        bottom: -6px !important;
+        background-position: -14px -24px !important;
+        background-repeat: no-repeat !important;
+    }
+    .iya-widget .container .search-button:hover {
+        background-position: -2px -24px !important;
+        background-repeat: no-repeat !important;
+    }
+    .iya-widget .container .search-box {
+        z-index: 2 !important;
+        position: absolute !important;
+        right: 32px !important;
+        bottom: -6px !important;
+        -webkit-border-radius: 3px !important;
+        -moz-border-radius: 3px !important;
+        -ms-border-radius: 3px !important;
+        -o-border-radius: 3px !important;
+        border-radius: 3px !important;
+        background: white !important;
+        border: 1px solid #357dbb !important;
+        width: 225px !important;
+        -webkit-box-sizing: border-box !important;
+        -moz-box-sizing: border-box !important;
+        box-sizing: border-box !important;
+        -webkit-box-shadow: rgba(0,0,0,0.5) 0px 5px 5px !important;
+        -moz-box-shadow: rgba(0,0,0,0.5) 0px 5px 5px !important;
+        box-shadow: rgba(0,0,0,0.5) 0px 5px 5px !important;
+    }
+    .iya-widget .container .search-box input {
+        font-style: italic !important;
+        font-size: 85.71429% !important;
+        color: #a8a8a !important;
+        width: 180px !important;
+        height: 23px !important;
+        border: none !important;
+        padding: 0 !important;
+        margin-left: 5px !important;
+    }
+    .iya-widget .container .search-box .icon {
+        cursor: pointer !important;
+        position: absolute !important;
+        top: 0px !important;
+        right: 0px !important;
+        background: #357dbb !important;
+        width: 40px !important;
+        height: 23px !important;
+        display: inline-block;
+        background-position: -2px -2px !important;
+        background-repeat: no-repeat !important;
+        background-position: center -2px !important;
+    }
+    .iya-widget .container .search-button,
+    .iya-widget .container .search-button:hover,
+    .iya-widget .container .box {
+        border: 1px solid #e0e0e0  !important;
+        background-color: #ededed !important;
+        filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr=\'#FFFFFFFF\', endColorstr=\'#FFEDEDED\') !important;
+        background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #ededed)) !important;
+        background-image: -webkit-linear-gradient(top, #ffffff 0%,#ededed 100%) !important;
+        background-image: -moz-linear-gradient(top, #ffffff 0%,#ededed 100%) !important;
+        background-image: -o-linear-gradient(top, #ffffff 0%,#ededed 100%) !important;
+        background-image: linear-gradient(top, #ffffff 0%,#ededed 100%) !important;
+    }
+    .iya-widget .container .box:hover {
+        background-color: #fff !important;
+        filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr=\'#FFEDEDED\', endColorstr=\'#FFFFFFFF\') !important;
+        background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ededed), color-stop(100%, #ffffff)) !important;
+        background-image: -webkit-linear-gradient(top, #ededed 0%,#ffffff 100%) !important;
+        background-image: -moz-linear-gradient(top, #ededed 0%,#ffffff 100%) !important;
+        background-image: -o-linear-gradient(top, #ededed 0%,#ffffff 100%) !important;
+        background-image: linear-gradient(top, #ededed 0%,#ffffff 100%) !important;
+    }
+    .iya-widget .container .box .desc {
+        text-align: center !important;
+        height: 2.4em !important;
+        overflow: hidden !important;
+    }
+    .iya-widget.bottom {
+        position: fixed !important;
+        bottom: 0px !important;
+        margin-bottom: 5px !important;
+        right: 0px !important;
+        overflow: visible  !important;
+    }
+    .iya-widget .bottom.container {
+        left: 0 !important;
+        right: 0 !important;
+        bottom: 0 !important;
+        top: auto !important;
+        width: auto !important;
+        overflow: hidden !important;
+        *zoom: 1 !important;
+    }
+    .iya-widget .bottom.container .menu,
+    .iya-widget .bottom.container .boxes {
+        opacity: .85;
+        margin: 0 auto !important;
+        width: 879px !important;
+    }
+    .iya-widget .bottom.container.box-count-1 .boxes,
+    .iya-widget .bottom.container.box-count-1 .menu { width: 210px !important }
+    .iya-widget .bottom.container .box .icon {
+        display: block !important;
+        float: left !important;
+        width: 64px !important;
+        text-align: center !important;
+    }
+    .iya-widget .bottom.container .box .icon img {
+        width: 32px !important;
+        height: 32px !important;
+        margin-top: 6px !important;
+    }
+    .iya-widget .bottom.container .box .title,
+    .iya-widget .bottom.container .box .desc,
+    .iya-widget .bottom.container .box .url {
+        margin-left: 64px !important;
+        text-align: left !important;
+    }
+    .iya-widget .ad { display: none !important }
+    .iya-widget.bottom .bottom.ad { display: block !important }
+    @media only screen and (max-width: 480px), only screen and (min-device-width: 320px) and (max-device-width: 480px), only screen and (min-device-width: 320px) and (max-device-width: 480px), only screen and (min-device-width: 640px) and (max-device-width: 960px) and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-width: 640px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2), only screen and (max-device-width: 800px) and (orientation: portrait), only screen and (max-device-width: 603px) and (orientation: portrait) { 
+        .iya-widget.allow-mobile .bottom.ad,
+    }
